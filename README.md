@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=&fontSize=0&animation=fadeIn&fontAlignY=35&descAlignY=55&descAlign=60&k=1"/>
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Fork%20and%20Knife%20with%20Plate.png" alt="Catering Logo" width="150" style="margin-top: -90px; position: relative; z-index: 5; filter: drop-shadow(0px 5px 15px rgba(0,0,0,0.5));"/>
+
 
 <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Catering Service Backend 🍽️</h1>
 
@@ -99,6 +99,8 @@
 
 <br/>
 
+
+
 ## 📂 Project Structure
 ```bash
 catering-backend/
@@ -111,6 +113,8 @@ catering-backend/
 │   └── application.properties # Database Configuration
 ├── pom.xml             # Dependencies (Maven)
 └── README.md
+```
+
 
 
 
