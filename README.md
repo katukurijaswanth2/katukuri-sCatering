@@ -69,7 +69,24 @@ Create the database in MySQL:
 
 ```sql
 CREATE DATABASE catering_db;
+---
 
+## ⚙️ Configuration
+
+Edit the file below to configure the database and server:
+
+**`src/main/resources/application.properties`**
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/catering_db?useSSL=false&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=YOUR_PASSWORD
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
+server.port=8080
 
 
 ## 📂 Project Structure
@@ -108,6 +125,7 @@ Full Stack Java Developer</p>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&k=2"/>
 
 </div>
+
 
 
 
