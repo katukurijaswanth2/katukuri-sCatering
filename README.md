@@ -161,6 +161,21 @@ The server will start at: `http://localhost:8080`
 | **POST** | `/api/book` | Submit a new catering request |
 | **GET** | `/api/bookings` | View all customer bookings |
 
+
+
+## 📂 Project Structure
+```bash
+catering-backend/
+├── src/main/java/com/example/catering
+│   ├── controller      # REST Controllers (API Endpoints)
+│   ├── entity          # Database Models (FoodItem, Booking)
+│   ├── repository      # JPA Data Access Layers
+│   └── service         # Business Logic & Rules
+├── src/main/resources
+│   └── application.properties # Database Configuration
+├── pom.xml             # Dependencies (Maven)
+└── README.md
+```
 <div align="center">
 
 <h2 style="border-bottom: none; font-size: 1.8rem;">👨‍💻 Author</h2>
@@ -185,24 +200,6 @@ Full Stack Java Developer</p>
 
 </div>
 
-```
-
-```
-
-
-## 📂 Project Structure
-```bash
-catering-backend/
-├── src/main/java/com/example/catering
-│   ├── controller      # REST Controllers (API Endpoints)
-│   ├── entity          # Database Models (FoodItem, Booking)
-│   ├── repository      # JPA Data Access Layers
-│   └── service         # Business Logic & Rules
-├── src/main/resources
-│   └── application.properties # Database Configuration
-├── pom.xml             # Dependencies (Maven)
-└── README.md
-```
 
 
 
